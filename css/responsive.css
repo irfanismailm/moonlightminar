@@ -1,0 +1,402 @@
+@media screen and (max-width: 767px) {
+  /* COMMON CSS */
+  .text--title br {
+    display: none;
+  }
+  .text--title br.break {
+    display: block;
+  }
+  /* HEADER SECTION CSS */
+  /*.nav__ul--full {*/
+  /*  position: fixed;*/
+  /*  top: 5.5rem;*/
+  /*  left: 0;*/
+  /*  width: 0%;*/
+  /*  min-height: calc(100vh - 5.5rem);*/
+  /*  display: block;*/
+  /*  padding: 2rem 0;*/
+  /*  text-align: left;*/
+  /*  overflow: hidden;*/
+  /*  background-color: var(--bg-color);*/
+  /*  -webkit-transition: all 0.5s ease-in-out;*/
+  /*  -moz-transition: all 0.5s ease-in-out;*/
+  /*  -ms-transition: all 0.5s ease-in-out;*/
+  /*  -o-transition: all 0.5s ease-in-out;*/
+  /*  transition: all 0.5s ease-in-out;*/
+  /*}*/
+  /*.nav__ul--full.open {*/
+  /* display: block; */
+  /*  width: 100%;*/
+  /*  padding-left: 2rem;*/
+  /*  padding-right: 2rem;*/
+  /*}*/
+  /*.nav__ul--full > li {*/
+  /*  display: block;*/
+  /*  margin: 2.5rem auto;*/
+  /*}*/
+
+  /* INDEX PAGE - SECTION WORK */
+  .grid__gallery > .item-6 {
+    display: none;
+  }
+  .grid__gallery > .item-7 {
+    display: none;
+  }
+  .grid__gallery > .item-8 {
+    display: none;
+  }
+  /* INDEX PAGE - KNOWLEDGE CSS */
+  .title__header {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .item--first {
+    padding-left: 2rem;
+  }
+  .item--last {
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* COMMON CSS */
+  .cursor {
+    display: block;
+  }
+  .md--hidden {
+    display: none !important;
+  }
+  .padding--left {
+    padding-left: 12rem;
+  }
+  .padding--right {
+    padding-right: 12rem;
+  }
+  .text--title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .subtitle__block {
+    padding-left: 10rem;
+    padding-right: 1rem;
+  }
+  .subtitle--line {
+    width: 7rem;
+    margin-top: 0.8rem;
+  }
+  .text--subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .text--desc {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+  }
+  /* HEADER SECTION CSS */
+  .section__header {
+    min-height: 9rem;
+    padding: 2rem 12rem;
+  }
+  .header--scrolled {
+    min-height: 3rem;
+  }
+  .logo__main.logo--sm,
+  .logo__main.logo--lg {
+    height: 5rem;
+  }
+
+  .nav__ul > li {
+    padding: 0 0 0 2.4rem;
+  }
+  .nav__icon {
+    display: none;
+  }
+  .nav__name {
+    font-size: 1.6rem;
+    display: inline-block;
+  }
+  /* FOOTER SECTION CSS */
+  .social__ul > li {
+    padding-right: 2rem;
+  }
+  .social__link {
+    font-size: 1.8rem;
+  }
+  .copyright--text {
+    font-size: 1.2rem;
+  }
+  .scroll__up--btn,
+  .scroll__up--btn:focus {
+    font-size: 1.4rem;
+  }
+  /* INDEX PAGE - SECTION BANNER CSS */
+  .send__msg {
+    font-size: 1rem;
+  }
+  .s__link {
+    font-size: 1.8rem;
+  }
+  .banner__btn {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+  }
+  .banner__title-s {
+    font-size: 2.6rem;
+  }
+  .banner__title-l {
+    font-size: 6.1rem;
+  }
+  .flex__banner .item--picture {
+    padding-left: 12rem;
+  }
+  .flex__banner .item--detail {
+    padding: 3rem 2rem 2rem 12rem;
+  }
+  /* INDEX PAGE - SECTION FIRETORCH CSS */
+  .flex__firetorch .item--picture {
+    padding-left: 12rem;
+  }
+  .flex__firetorch .item--detail {
+    padding: 3rem 2rem 2rem 12rem;
+  }
+  /* INDEX PAGE - SECTION DELIVERING CSS */
+  .section__delivering,
+  .section__knowledge,
+  .section__work {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .grid__delivering {
+    grid-gap:9rem;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  }
+  .delivering--icon {
+    height: 6rem;
+  }
+  .delivering--title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .delivering--desc {
+    font-size: 1.1rem;
+  }
+  .know-more__btn {
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+  }
+  /* INDEX PAGE - SECTION KNOWLEDGE CSS */
+  .swipe--icon {
+    display: none;
+  }
+  .item--content {
+    padding-top: 15rem;
+  }
+  .item--title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .item--desc {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  .balance__img {
+    width: 200% !important;
+  }
+  /* INDEX PAGE - SECTION WORK CSS */
+  .section__work {
+    padding-bottom: 0;
+  }
+  .flex--work__header {
+    padding: 4rem 0;
+  }
+  .work__type--btn {
+    font-size: 1.2rem;
+  }
+  .grid__gallery {
+    grid-gap: 1rem;
+    -ms-grid-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "item1 item1 item2 item3 item4 item4"
+      "item5 item5 item5 item6 item6 item6"
+      "item7 item8 item8 item6 item6 item6";
+  }
+  /* INDEX PAGE - SECTION CONTACT CSS */
+  .section__contact {
+    padding-top: 10rem;
+  }
+  .flex__contact .item--detail {
+    padding: 2rem 12rem 4rem 0;
+  }
+  .spiral__img {
+    width: 90%;
+  }
+  .human--hand__img {
+    top: -8rem;
+    width: 53%;
+  }
+  .robot--hand__img {
+    left: 0;
+    width: 53%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* INDEX PAGE - SECTION BANNER CSS */
+  .section__banner {
+    padding-top: 12rem;
+  }
+  /* INDEX PAGE - SECTION FIRETORCH CSS */
+  .section__firetorch {
+    padding-top: 10rem;
+  }
+  /* INDEX PAGE - SECTION WORK CSS */
+}
+
+@media only screen and (min-width: 1200px) {
+  .padding--left {
+    padding-left: 20rem;
+  }
+  .padding--right {
+    padding-right: 20rem;
+  }
+  /* HEADER SECTION CSS */
+  .section__header {
+    min-height: 11rem;
+    padding: 3rem 20rem;
+  }
+  .header--scrolled {
+    min-height: 3rem;
+  }
+  /* FOOTER SECTION CSS */
+  .section__footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .footer__flex > .footer--nav {
+    width: 60%;
+    display: block;
+  }
+  .footer__flex > .footer--social {
+    width: 40%;
+    text-align: right;
+  }
+  .footer__flex > .footer--scroll {
+    width: 0%;
+    display: none;
+  }
+  .social__ul > li {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+  /* INDEX PAGE - SECTION BANNER CSS */
+  .send__msg {
+    font-size: 1.2rem;
+  }
+  .s__ul > li {
+    padding-left: 3.5rem;
+    padding-right: 0;
+  }
+  .flex__banner > .flex__item {
+    width: 50%;
+    place-self: center;
+  }
+  .flex__banner .item--picture {
+    padding-left: 0;
+  }
+  .flex__banner .item--detail {
+    padding: 2rem;
+    padding-left: 20rem;
+  }
+  .scroll--btn {
+    display: none;
+  }
+  /* INDEX PAGE - SECTION FIRETORCH CSS */
+  .flex__firetorch > .flex__item {
+    width: 50%;
+    place-self: center;
+  }
+  .flex__firetorch .item--picture {
+    padding-left: 15rem;
+    padding-right: 2rem;
+  }
+  .flex__firetorch .item--detail {
+    padding: 2rem;
+  }
+  /* INDEX PAGE - SECTION DELIVERING CSS */
+  .grid__delivering {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+  .delivering--content {
+    width: 100%;
+    min-height: 10rem;
+  }
+  /* INDEX PAGE - SECTION WORK CSS */
+  .flex--work__header > .flex__item:first-child {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: auto;
+  }
+  .flex--work__header > .flex__item:last-child {
+    -webkit-box-flex: 100;
+    -webkit-flex-grow: 100;
+    -moz-box-flex: 100;
+    -ms-flex-positive: 100;
+    flex-grow: 100;
+    width: auto;
+  }
+  .work__type--ul {
+    text-align: right;
+  }
+  .grid__gallery {
+    -ms-grid-rows: repeat(3, 14.5rem);
+    grid-template-rows: repeat(3, 14.5rem);
+  }
+  /* INDEX PAGE - SECTION CONTACT CSS */
+  .flex__contact > .flex__item {
+    width: 50%;
+    place-self: center;
+  }
+  .flex__contact .item--detail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact__form {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  html {
+    font-size: 20px;
+  }
+}

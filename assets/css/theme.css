@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Didonesque Roman";
+  src: url(../fonts/Didonesque-Roman.ttf);
+}
+@font-face {
+  font-family: "Montserrat Light";
+  src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url(../fonts/Montserrat-Medium.otf);
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(../fonts/Montserrat-Bold.otf);
+}
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-main: #eed256;
+  --bg-color: #252525;
+  --footer-bg-color: #ccc;
+  --footer-text-color: #8e8e8e;
+  --color-light: #ccc;
+  --color-light-1: #acacac;
+  --color-light-2: #7d7d7d;
+  --color-dark: #343434;
+  --input-border-color: #343434;
+  --input-field-color: #f1cb31;
+  --send-btn-text: #424242;
+  --placeholder-color: #747474;
+  --font-roman: "Didonesque Roman";
+  --font-light: "Montserrat Light";
+  --font-regular: "Montserrat Regular";
+  --font-medium: "Montserrat Medium";
+  --font-bold: "Montserrat Bold";
+}
