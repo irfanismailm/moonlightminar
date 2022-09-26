@@ -732,7 +732,7 @@
 }
 .delivering--title {
   color: var(--color-light);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
   font-family: var(--font-bold);
@@ -740,7 +740,7 @@
 .delivering--desc {
   color: var(--color-light-1);
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   font-family: var(--font-regular);
 }
@@ -828,7 +828,7 @@
 }
 .item--title {
   color: var(--color-light);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
   font-family: var(--font-bold);
@@ -836,7 +836,7 @@
 .item--desc {
   color: var(--color-light-1);
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   font-family: var(--font-regular);
 }
