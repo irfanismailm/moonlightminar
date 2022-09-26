@@ -236,7 +236,7 @@ section {
 }
 .text--title {
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   margin: 0 auto 2rem;
   color: var(--color-light);
   font-weight: 100;
@@ -257,13 +257,13 @@ section {
   background: var(--color-light-1);
 }
 .text--subtitle {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 0 auto 1.5rem;
   color: var(--color-light-1);
   font-family: var(--font-medium);
 }
 .text--desc {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0 auto 1rem;
   color: var(--color-light-1);
   font-family: var(--font-regular);
