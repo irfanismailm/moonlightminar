@@ -406,7 +406,7 @@
 .banner__title-s,
 .banner__title-l {
   color: var(--color-light);
-  font-weight: 100;
+  font-weight: 400;
   font-family: var(--font-roman);
 }
 .banner__title-s {
